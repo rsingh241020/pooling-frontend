@@ -14,57 +14,50 @@ export default function Careers() {
         </h2>
 
         <p className="text-lg text-center text-gray-700 mb-10">
-          Join our team and help shape the future of smart and sustainable mobility 🚗
+          Join our mission to build smart and sustainable mobility solutions 🚗
         </p>
 
         {/* Why Join Us */}
         <div className="bg-white p-6 rounded shadow mb-8">
-          <h3 className="text-2xl font-bold mb-3">🌟 Why Join RidePool?</h3>
+          <h3 className="text-2xl font-bold mb-3">🌟 Why RidePool?</h3>
           <ul className="list-disc ml-6 text-gray-600 space-y-2">
             <li>Work on real-world full-stack products</li>
-            <li>Learn modern tech stack and scalable systems</li>
-            <li>Collaborative and innovative team culture</li>
-            <li>Growth-oriented startup environment</li>
+            <li>Learn modern tech stack</li>
+            <li>Innovative startup environment</li>
+            <li>Growth & learning opportunities</li>
           </ul>
         </div>
 
-        {/* Open Positions */}
-        <h3 className="text-2xl font-bold mb-4">🚀 Open Positions</h3>
+        {/* Resume Section Only */}
+        <div className="grid grid-cols-1 gap-6">
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="bg-white p-8 rounded-xl shadow-md border text-center">
 
-          {/* Job Card */}
-          <div className="bg-white p-6 rounded shadow">
-            <h4 className="text-xl font-bold">Frontend Developer</h4>
-            <p className="text-gray-600 mt-2">React, Tailwind CSS</p>
-            <button className="mt-4 bg-blue-600 text-white px-4 py-2 rounded">
-              Apply Now
-            </button>
-          </div>
+            <h4 className="text-2xl font-bold text-gray-800">
+              📄 Send Your Resume
+            </h4>
 
-          <div className="bg-white p-6 rounded shadow">
-            <h4 className="text-xl font-bold">Backend Developer</h4>
-            <p className="text-gray-600 mt-2">Spring Boot, PostgreSQL</p>
-            <button className="mt-4 bg-blue-600 text-white px-4 py-2 rounded">
-              Apply Now
-            </button>
-          </div>
+            <p className="text-gray-600 mt-3">
+              Currently we don’t have open positions,
+              but you can share your resume for future opportunities.
+            </p>
 
-          <div className="bg-white p-6 rounded shadow">
-            <h4 className="text-xl font-bold">UI/UX Designer</h4>
-            <p className="text-gray-600 mt-2">Figma, Product Design</p>
-            <button className="mt-4 bg-blue-600 text-white px-4 py-2 rounded">
-              Apply Now
-            </button>
+            <a
+              href="mailto:hrridepool@gmail.com"
+              className="inline-block mt-5 text-blue-600 font-semibold text-lg hover:text-blue-800"
+            >
+              hrridepool@gmail.com
+            </a>
+
           </div>
 
         </div>
 
-        {/* Contact Section */}
+        {/* Contact */}
         <div className="bg-white p-6 rounded shadow mt-10 text-center">
           <h3 className="text-2xl font-bold mb-2">📩 Contact Us</h3>
           <p className="text-gray-600">
-            Send your resume to <b>careers@ridepool.com</b>
+            For career queries mail us at <b>hrridepool@gmail.com</b>
           </p>
         </div>
 
