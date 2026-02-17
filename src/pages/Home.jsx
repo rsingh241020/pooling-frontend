@@ -6,6 +6,9 @@ export default function Home() {
 
   const navigate = useNavigate();
 
+  const handleGetStarted = () => {
+  navigate("/dashboard");
+};
   return (
     <div className="bg-gray-50">
 
@@ -28,10 +31,14 @@ export default function Home() {
         <div className="mt-8 flex flex-col sm:flex-row 
                         justify-center gap-4">
 
-          <button className="bg-white text-blue-600 px-6 py-3 
-                             rounded font-bold shadow w-full sm:w-auto">
+                    <button
+                            onClick={handleGetStarted}
+                       className="bg-white text-blue-600 px-6 py-3 
+                      rounded font-bold shadow w-full sm:w-auto"
+          >
             Get Started
           </button>
+
 
           <button className="border border-white px-6 py-3 
                              rounded font-bold w-full sm:w-auto">
